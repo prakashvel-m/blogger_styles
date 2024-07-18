@@ -1,0 +1,79 @@
+.code-snippet-container {
+  position: relative;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  overflow: auto;
+  border-radius: 8px;
+  line-height: 1.2;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+pre {
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #444444;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.card img {
+  width: 60px;
+  height: 65px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-family: 'DM Sans', monospace;
+  font-size: 1.2em;
+  color: #444444;
+}
+
+.card-content p {
+  margin: 0;
+  color: #444444;
+  font-size: .9em;
+  line-height: 1.2;
+  font-family: 'DM Sans', monospace;
+}
+
+.linkedin-logo a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.linkedin-logo {
+  width: 80px;
+  height: auto;
+}
